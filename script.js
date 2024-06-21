@@ -29,6 +29,8 @@ console.log("hello world")
         console.log(a)
     }
 }
+
+
 {
 
     let x = "macky bhai";
@@ -43,6 +45,7 @@ console.log("hello world")
 
 }
 
+
 {
 
     let age = 5;
@@ -56,6 +59,7 @@ console.log("hello world")
     }
 }
 
+
 {
     // this is the way to write the if else in time saving way
 
@@ -63,6 +67,7 @@ console.log("hello world")
 
     let pass = age > 18 ? (console.log("you can drive")) : (console.log("you can not drive yet"));
 }
+
 
 {
 
@@ -87,6 +92,7 @@ console.log("hello world")
     }
 }
 
+
 {
     // ifeslse ladder = if, else if, else
 
@@ -106,4 +112,58 @@ console.log("hello world")
     }
 }
 
+// from here the loops are starting for loops, for in loops, for of loops, for each loop, while loop, do while loop 
 
+// warning for infinite loop.dont do it.
+
+{
+    // this is a for loop
+
+    console.log("the javascript loops")
+
+    let a = 1;
+
+    for (let macky = 0; macky < 100; macky++) {
+        console.log(a + macky);
+    }
+
+    //     steps of this loop is 
+    //    0 macky = 0 this is only for only first time 
+    //    1 macky < 100 =true
+    //    2 confirm.log(a+macky)=1
+    //    3 macky++ = 1 
+    //    - then repeat from 1 to 3 till macky<100 = false  
+
+}
+
+{
+    // for in loop
+
+    let bio = {
+        name: "macky",
+        role: "programmer",
+        comapny: "master"
+    }
+
+    for (const key in bio) {
+        const element = bio[key];
+        console.log(key, element)
+    }
+
+    // key is the name,role,company side 
+    // in this loop const is key in bio of let
+    // element are the data like macky, programmer , master side
+    // con.log print key and element of bio as written 
+
+}
+
+{
+    // for of loop
+
+    for (const cop of "macky") {
+        console.log(cop)
+    }
+
+    // this loop is just spell each alphabat of the word given in the place of object written itrator place is like name for me i dont what is that but its just work like a name or variable
+
+}
