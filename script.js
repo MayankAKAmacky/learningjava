@@ -271,11 +271,11 @@ console.log("hello world")
     let macky = (x) => {
         console.log("iam a function number", x)
     }
-    
+
     macky(1)
     macky(2)
     macky(3)
-    
+
 }
 
 
@@ -283,7 +283,7 @@ console.log("hello world")
 
 {
 
-// the lower one is called template literal uses the backtick the button under escape and above tab||
+    // the lower one is called template literal uses the backtick the button under escape and above tab||
 
     let name = "Macky"
     let friend = "Krishu"
@@ -300,7 +300,38 @@ console.log("hello world")
     console.log(a.toLowerCase())
     console.log(a.length)
     console.log(a.slice(2))
-    console.log(a.replace("ma","11"))
+    console.log(a.replace("ma", "11"))
     console.log(a.concat(" pratap"))
 
 }
+
+// Arrays are starting from here 
+
+{
+    // Arrays are the collection of data like below.||
+    // Arrays are mutable we can change them.
+    // not like the strings which are immutable.
+
+    let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    console.log(a);
+    console.log(typeof a);
+    console.log(a.length);
+    console.log(a[1]);
+    console.log(a[2]);
+
+    // array convert to string 
+    console.log(a.toString());
+
+    
+    console.log(a.join(" and "))
+
+    // change in array
+    console.log(a[1]);
+    a[1] = 11;
+    console.log(a[1]);
+    
+
+}
+
+
