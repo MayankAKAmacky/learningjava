@@ -1,8 +1,14 @@
+// NAN = Not A Number
+
+
+
 console.log("hello world")
 
 
 
 {
+    // some variables 
+
     let a = 5;
     let b = 10;
     console.log(a + b + 10)
@@ -113,7 +119,7 @@ console.log("hello world")
 }
 
 // from here the loops are starting for loops, for in loops, for of loops, for each loop, while loop, do while loop 
-
+// |_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|
 // warning for infinite loop.dont do it.
 
 {
@@ -123,16 +129,16 @@ console.log("hello world")
 
     let a = 1;
 
-    for (let macky = 0; macky < 100; macky++) {
+    for (let macky = 0; macky < 20; macky++) {
         console.log(a + macky);
     }
 
     //     steps of this loop is 
     //    0 macky = 0 this is only for only first time 
-    //    1 macky < 100 =true
+    //    1 macky < 20 =true
     //    2 confirm.log(a+macky)=1
     //    3 macky++ = 1 
-    //    - then repeat from 1 to 3 till macky<100 = false  
+    //    - then repeat from 1 to 3 till macky < 20 = false  
 
 }
 
@@ -165,5 +171,136 @@ console.log("hello world")
     }
 
     // this loop is just spell each alphabat of the word given in the place of object written itrator place is like name for me i dont what is that but its just work like a name or variable
+
+}
+
+
+{
+    // while loop
+
+    let i = 0;
+    while (i < 10) {
+        console.log(i)
+        i++;
+    }
+
+    // this is also just like for loop goes till false
+}
+
+{
+    // do while loop
+
+    let i = 0;
+    do {
+        console.log(i)
+        i++;
+    } while (i < 6);
+
+}
+
+// from here the functions are starting |_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|
+
+{
+
+    // function 1| 
+
+    function nice(name) {
+        console.log("Hey " + name + " you are very nice.")
+        console.log("Hey " + name + " your thinking is very nice.")
+        console.log("Hey " + name + " your T-sirt is very nice.")
+        console.log("Hey " + name + " your friends are so nice.")
+    }
+
+    nice("dev")
+}
+
+{
+    // fundtion 2
+
+    function sum(a, b) {
+        console.log(a + b)
+    }
+
+    sum(3, 5)
+
+}
+
+
+{
+    // function 2.0
+
+    function sum(a, b) {
+        return a + b
+    }
+
+    result = sum(3, 5)
+
+    console.log("The sum of these number is: ", result)
+
+    // This is why because of the return value Means 
+    // that the 'sum' of two digits have to come in return from that 
+    // function to 'sum'.
+
+}
+
+
+{
+
+    // function 3 
+    // this is a arrow function
+
+    const macky = (x) => {
+        console.log("i am a function", x)
+    }
+
+    macky(1)
+    macky(2)
+    macky(3)
+    macky(4)
+    macky(5)
+
+    // this one function is reusable and convenient to code you can use both const or a let ||
+
+
+}
+
+{
+
+    // function 3.0 with let 
+
+    let macky = (x) => {
+        console.log("iam a function number", x)
+    }
+    
+    macky(1)
+    macky(2)
+    macky(3)
+    
+}
+
+
+// deep study of strings 
+
+{
+
+// the lower one is called template literal uses the backtick the button under escape and above tab||
+
+    let name = "Macky"
+    let friend = "Krishu"
+
+    console.log("your name is " + name + " and your friend name is " + friend)
+    console.log(`your name is ${name} and your friend name is ${friend}`)
+}
+
+{
+    // in this case the 1 is first letter 
+    let a = "mayank"
+
+    console.log(a.toUpperCase())
+    console.log(a.toLowerCase())
+    console.log(a.length)
+    console.log(a.slice(2))
+    console.log(a.replace("ma","11"))
+    console.log(a.concat(" pratap"))
 
 }
