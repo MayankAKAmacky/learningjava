@@ -1,5 +1,5 @@
 // NAN = Not A Number
-
+// undefined = not given the value
 
 
 console.log("hello world")
@@ -15,11 +15,12 @@ console.log("hello world")
 
     let c = "macky";
     console.log(c)
-
-    console.log(typeof a, typeof b, typeof c)
-
-
+    
     const d = 6;
+    
+    console.log(typeof a, typeof b, typeof c, typeof d)
+
+
     // const is the constant it can never be changed from anywhere else|
 
 
@@ -250,7 +251,7 @@ console.log("hello world")
     // this is a arrow function
 
     const macky = (x) => {
-        console.log("i am a function", x)
+        console.log("i am a const arrow function number", x)
     }
 
     macky(1)
@@ -269,7 +270,7 @@ console.log("hello world")
     // function 3.0 with let 
 
     let macky = (x) => {
-        console.log("iam a function number", x)
+        console.log("i am a let arrow function number", x)
     }
 
     macky(1)
@@ -305,7 +306,7 @@ console.log("hello world")
 
 }
 
-// Arrays are starting from here 
+// Arrays are starting from here |_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|
 
 {
     // Arrays are the collection of data like below.||
@@ -313,7 +314,7 @@ console.log("hello world")
     // not like the strings which are immutable.
 
     let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
+    // index[0, 1, 2, 3, 4, 5, 6, 7, 8, 09] counting goes like this 
     console.log(a);
     console.log(typeof a);
     console.log(a.length);
@@ -323,14 +324,49 @@ console.log("hello world")
     // array convert to string 
     console.log(a.toString());
 
-    
+    // it replace the commas with and or any other word you write in brackets
     console.log(a.join(" and "))
 
     // change in array
     console.log(a[1]);
     a[1] = 11;
     console.log(a[1]);
-    
+
+    console.log(a.pop())
+    console.log(a);
+
+    console.log(a);
+    console.log(a.push(10));
+
+    console.log(a);
+    console.log(a.push("macky"));
+
+    console.log(a);
+    console.log(a.shift());
+
+    console.log(a);
+    console.log(a.unshift(1));
+
+    console.log(a);
+    // this function take down the last element in the array like 10 in this case
+    // like the pop method which pull out the value this function put down the value i can insert the word too shift takes out the first value from the array shift is put value on the first value 
+
+    // concatination in below
+
+    let a1 = [1,2,3]
+    let a2 = [4,5,6]
+    let a3 = [7,8,9]
+
+    console.log(a1.concat(a2,a3))
+    // this is the concatination function just like strings 
+
+    let b = [1,2,5,4,3,7,9,0,8,6]
+    for (let index = 0; index < b.length; index++) {
+        const element = b[index];
+        console.log(element)
+        
+    }
+
 
 }
 
