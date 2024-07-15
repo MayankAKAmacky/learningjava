@@ -1,3 +1,4 @@
+
 // NAN = Not A Number
 // undefined = not given the value
 // null is the object (this is a mistake done by the creator of JavaScript )
@@ -361,6 +362,10 @@ console.log("hello world");
   // this is the link of geeks of geeks website related to this topic.
 }
 
+// this is the Rock Paper Scissors game 
+// this game works on the random probability function of JavaScript  
+
+
 let move = "paper";
 let computerMove = "";
 let chance = Math.random();
@@ -410,6 +415,135 @@ answer();
 console.log(`your move is ${move}`);
 console.log(`Computer choses to play ${computerMove}`);
 console.log(`The result is ${result}`);
-console.log(chance);
+console.log(`the random guess by computer ${chance}`);
 
-console.log("hello");
+console.log('how is the game do you like it');
+
+// this is the simple resverse calculator based on if else if else lader  function
+
+let calculator = "";
+let opretor = "+";
+let resultt = "";
+
+if ((opretor = "+")) {
+  function sum(firstValue, secondValue) {
+    resultt = console.log(firstValue - secondValue);
+  }
+} else if ((opretor = "-")) {
+  function sum(firstValue, secondValue) {
+    resultt = console.log(firstValue * secondValue);
+  }
+} else if ((opretor = "/")) {
+  function sum(firstValue, secondValue) {
+    resultt = console.log(firstValue + secondValue);
+  }
+} else if ((opretor = "*")) {
+  function sum(firstValue, secondValue) {
+    resultt = console.log(firstValue / secondValue);
+  }
+}
+
+console.log(resultt);
+sum(10, 15);
+console.log(opretor);
+
+// But this is the probability faulty calculator 
+// the probability of this calcultor to do correct calculation is 25% only 
+// this is based on probability function like rock paper scissors
+
+let sign = Math.random();
+let opr = "-";
+let choosenSign = "";
+let first = "200";
+let second = "100";
+
+if (opr == "+") {
+  if (sign >= 0 && sign < 0.25) {
+    function summ(first, second) {
+      answer = first - second;
+    }
+  } else if (sign >= 0.25 && sign < 0.5) {
+    function summ(first, second) {
+      answer = first + second;
+    }
+  } else if (sign >= 0.5 && sign < 0.75) {
+    function summ(first, second) {
+      answer = first / second;
+    }
+  } else if (sign >= 0.75 && sign < 1) {
+    function summ(first, second) {
+      answer = first * second;
+    }
+  }
+} else if (opr == "-") {
+  if (sign >= 0 && sign < 0.25) {
+    function summ(first, second) {
+      answer = first - second;
+    }
+  } else if (sign >= 0.25 && sign < 0.5) {
+    function summ(first, second) {
+      answer = first + second;
+    }
+  } else if (sign >= 0.5 && sign < 0.75) {
+    function summ(first, second) {
+      answer = first / second;
+    }
+  } else if (sign >= 0.75 && sign < 1) {
+    function summ(first, second) {
+      answer = first * second;
+    }
+  }
+} else if (opr == "/") {
+  if (sign >= 0 && sign < 0.25) {
+    function summ(first, second) {
+      answer = first - second;
+    }
+  } else if (sign >= 0.25 && sign < 0.5) {
+    function summ(first, second) {
+      answer = first + second;
+    }
+  } else if (sign >= 0.5 && sign < 0.75) {
+    function summ(first, second) {
+      answer = first / second;
+    }
+  } else if (sign >= 0.75 && sign < 1) {
+    function summ(first, second) {
+      answer = first * second;
+    }
+  }
+} else if (opr == "*") {
+  if (sign >= 0 && sign < 0.25) {
+    function summ(first, second) {
+      answer = first - second;
+    }
+  } else if (sign >= 0.25 && sign < 0.5) {
+    function summ(first, second) {
+      answer = first + second;
+    }
+  } else if (sign >= 0.5 && sign < 0.75) {
+    function summ(first, second) {
+      answer = first / second;
+    }
+  } else if (sign >= 0.75 && sign < 1) {
+    function summ(first, second) {
+      answer = first * second;
+    }
+  }
+}
+
+if (sign >= 0 && sign < 0.25) {
+  choosenSign = "-";
+} else if (sign >= 0.25 && sign < 0.5) {
+  choosenSign = "+";
+} else if (sign >= 0.5 && sign < 0.75) {
+  choosenSign = "/";
+} else if (sign >= 0.75 && sign < 1) {
+  choosenSign = "*";
+}
+
+summ(first, second);
+console.log(`First is ${first} Second is ${second}`);
+console.log(sign);
+console.log(`Your choosen sign is: ${opr}`);
+console.log(`Computer choosen sign is: ${choosenSign}`);
+console.log(`Your answer is: ${answer}`);
