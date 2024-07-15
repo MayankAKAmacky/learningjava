@@ -18,14 +18,15 @@ var b = "string";
 
 String always have to be in double quote bacause string should have more than one word in it like "my name is mayank" this string contains 3 words.Number are not like it (22) is acceptable but (2 2) is not.<br>
 
-let and var can be change like this :-
+var can be change like this, but not the let :-
 
 ```
 let a = 2;
-a = 2+4;
+a = 2+4;   not allowed
+
 
 var a = 2;
-a = 2+4;
+a = 2+4;    allowed
 ```
 Constant (const) are the constant variable which value cannot be changed like this :-
 
@@ -324,7 +325,7 @@ the lower one is called template literal uses the backtick the button under esca
 ### 7/2.  String Functions
 
 ```
-  console.log(a.toUpperCase())
+   console.log(a.toUpperCase())
     console.log(a.toLowerCase())
     console.log(a.length)
     console.log(a.slice(2))
@@ -335,15 +336,15 @@ the lower one is called template literal uses the backtick the button under esca
 ## 8. JS Arrays
 
 ```
- let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
- console.log(a);
+    let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    console.log(a);
     console.log(typeof a);
     console.log(a.length);
     console.log(a[1]);
     console.log(a[2]);
-        console.log(a.toString());
-         console.log(a.join(" and "))
-           console.log(a[1]);
+    console.log(a.toString());
+    console.log(a.join(" and "))
+    console.log(a[1]);
     a[1] = 11;
     console.log(a[1]);
 
